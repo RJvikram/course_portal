@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'reviews.apps.ReviewsConfig',
     'reports.apps.ReportsConfig',
     'accounts.apps.AccountsConfig',
+    'enrollment.apps.EnrollmentConfig',
     'rest_framework',
 ]
 
