@@ -98,7 +98,7 @@ class Command(BaseCommand):
     @transaction.atomic
     def handle(self, *args, **kwargs):
         # Create Users and their details
-        for _ in range(20):  # Create 20 dummy users
+        for _ in range(20000):  # Create 20 dummy users
             user = self.create_user()
             self.create_user_basic_details(user)
         
